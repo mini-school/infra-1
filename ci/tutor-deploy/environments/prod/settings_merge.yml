@@ -1,0 +1,112 @@
+---
+CORS_ORIGIN_ALLOW_ALL: true
+CORS_ORIGIN_WHITELIST:
+- https://schoddle.com
+- https://courses.schoddle.com
+- https://studio.courses.schoddle.com
+CROSS_DOMAIN_CSRF_COOKIE_DOMAIN: "courses.schoddle.com"
+CROSS_DOMAIN_CSRF_COOKIE_NAME: native-csrf-cookie
+CSRF_COOKIE_SECURE: true
+CSRF_TRUSTED_ORIGINS: []
+DCS_SESSION_COOKIE_SAMESITE: lax
+DCS_SESSION_COOKIE_SAMESITE_FORCE_ALL: true
+ACTIVATION_EMAIL_SUPPORT_LINK: https://schoddle.com/support/
+AWS_SES_REGION_ENDPOINT: email.ap-south-1.amazonaws.com
+AWS_SES_REGION_NAME: "ap-south-1"
+CREDIT_HELP_LINK_URL: https://schoddle.com/support/
+DEFAULT_MOBILE_AVAILABLE: false
+DEFAULT_EMAIL_LOGO_URL: https://cdn.courses.schoddle.com
+ENTERPRISE_SUPPORT_URL: https://schoddle.com/support/
+ENTERPRISE_TAGLINE: "schoddle"
+ENABLE_CHANGE_USER_PASSWORD_ADMIN: true
+FACEBOOK_API_VERSION: v12.0
+FEATURES:
+  CERTIFICATES_HTML_VIEW: true
+  PREVIEW_LMS_BASE: "courses.schoddle.com/"
+  ENABLE_COURSEWARE_INDEX: true
+  ENABLE_CSMH_EXTENDED: false
+  ENABLE_LEARNER_RECORDS: true
+  ENABLE_LIBRARY_INDEX: true
+  MILESTONES_APP: true
+  ENABLE_PREREQUISITE_COURSES: true
+  ENABLE_DASHBOARD_SEARCH: false
+  AUTH_USE_OPENID_PROVIDER: false
+  AUTOMATIC_AUTH_FOR_TESTING: false
+  CUSTOM_COURSES_EDX: false
+  ENABLE_BULK_ENROLLMENT_VIEW: true
+  ENABLE_COMBINED_LOGIN_REGISTRATION: true
+  ENABLE_CORS_HEADERS: true
+  ENABLE_COUNTRY_ACCESS: false
+  ENABLE_CREDIT_API: false
+  ENABLE_CREDIT_ELIGIBILITY: false
+  ENABLE_CROSS_DOMAIN_CSRF_COOKIE: true
+  ENABLE_DISCUSSION_HOME_PANEL: false
+  ENABLE_DISCUSSION_SERVICE: false
+  ENABLE_EDXNOTES: true
+  ENABLE_ENROLLMENT_RESET: true
+  ENABLE_EXPORT_GIT: false
+  ENABLE_GRADE_DOWNLOADS: true
+  ENABLE_INSTRUCTOR_ANALYTICS: true
+  ENABLE_LTI_PROVIDER: false
+  ENABLE_MKTG_SITE: false
+  ENABLE_MOBILE_REST_API: true
+  ENABLE_OAUTH2_PROVIDER: true
+  ENABLE_PUBLISHER: false
+  ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES: false
+  ENABLE_SPECIAL_EXAMS: false
+  ENABLE_SYSADMIN_DASHBOARD: true
+  ENABLE_THIRD_PARTY_AUTH: true
+  ENABLE_VIDEO_UPLOAD_PIPELINE: false
+  SHOW_FOOTER_LANGUAGE_SELECTOR: false
+  SHOW_HEADER_LANGUAGE_SELECTOR: false
+ID_VERIFICATION_SUPPORT_LINK: https://schoddle.com/support/
+LANGUAGE_CODE: en
+LANGUAGE_COOKIE: openedx-language-preference
+LOGO_URL_PNG: "https://cdn.courses.schoddle.com"
+PLATFORM_DESCRIPTION: "Schoddle"
+PLATFORM_FACEBOOK_ACCOUNT: http://www.facebook.com/
+PLATFORM_NAME: "schoddle"
+PLATFORM_TWITTER_ACCOUNT: ''
+REGISTRATION_EXTRA_FIELDS:
+  city: hidden
+  confirm_email: hidden
+  country: hidden
+  gender: hidden
+  goals: hidden
+  honor_code: hidden
+  level_of_education: hidden
+  mailing_address: hidden
+  terms_of_service: hidden
+  year_of_birth: hidden
+SESSION_COOKIE_DOMAIN: "courses.schoddle.com"
+SESSION_COOKIE_NAME: sessionid
+SESSION_COOKIE_SECURE: true
+SOCIAL_AUTH_REDIRECT_IS_HTTPS: true
+SOCIAL_AUTH_RAISE_EXCEPTIONS: false
+SOCIAL_AUTH_BACKEND_ERROR_URL: https://courses.schoddle.com/oauth-error
+SOCIAL_MEDIA_FOOTER_URLS:
+  linkedin: https://www.linkedin.com/
+  twitter: https://twitter.com/
+  facebook: https://www.facebook.com/
+SUPPORT_SITE_LINK: https://schoddle.com/support/
+TIME_ZONE: America/New_York
+THIRD_PARTY_AUTH_BACKENDS:
+- social_core.backends.google.GoogleOAuth2
+- social_core.backends.facebook.FacebookOAuth2
+WIKI_ENABLED: false
+API_ACCESS_FROM_EMAIL: api-requests@schoddle.com
+API_ACCESS_MANAGER_EMAIL: api-access@schoddle.com
+BUGS_EMAIL: bugs@schoddle.com
+BULK_EMAIL_DEFAULT_FROM_EMAIL: no-reply@schoddle.com
+CONTACT_EMAIL: info@schoddle.com
+CONTACT_MAILING_ADDRESS: ''
+DEFAULT_FEEDBACK_EMAIL: feedback@schoddle.com
+DEFAULT_FROM_EMAIL: registration@schoddle.com
+FEEDBACK_SUBMISSION_EMAIL: support@schoddle.com
+PARTNER_SUPPORT_EMAIL: support@schoddle.com
+PASSWORD_RESET_SUPPORT_LINK: support@schoddle.com
+PAYMENT_SUPPORT_EMAIL: billing@schoddle.com
+PRESS_EMAIL: press@schoddle.com
+SERVER_EMAIL: devops@schoddle.com
+TECH_SUPPORT_EMAIL: technical@schoddle.com
+UNIVERSITY_EMAIL: university@schoddle.com
